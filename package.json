@@ -1,0 +1,19 @@
+{
+  "name": "highcharts",
+  "version": "4.0.1",
+  "description": "Highcharts JS, the JavaScript charting framework",
+  "keywords": ["data", "chart", "pie", "line", "svg", "canvas"],
+  "homepage": "http://www.highcharts.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spmjs/highcharts.git"
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "highcharts.js",
+    "dependencies": {
+      "jquery": "1.10.1"
+    },
+    "buildArgs": "--ignore jquery"
+  }
+}
